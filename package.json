@@ -1,0 +1,19 @@
+{
+  "name": "ux-script",
+  "version": "1.0.0",
+  "description": "A UX script that will trace heatmap signatures from user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abir4l/UX.git"
+  },
+  "author": "Abiral Khanal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abir4l/UX/issues"
+  },
+  "homepage": "https://github.com/abir4l/UX#readme"
+}
