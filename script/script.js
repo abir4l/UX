@@ -22,3 +22,10 @@ document.onmousemove = function (event){
 document.onmousewheel = function(event){
 	mouseEvents.push(event)
 }
+/**
+ * TODO 
+ * -scroll back to where it was
+ * -filter out scroll event and wheel event
+ * - scale x and y with windows of other resolution
+ *
+  **/
