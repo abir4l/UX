@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/abir4l/UX/issues"
   },
-  "homepage": "https://github.com/abir4l/UX#readme"
+  "homepage": "https://github.com/abir4l/UX#readme",
+  "dependencies": {
+    "heatmap.js": "^2.0.5"
+  }
 }

@@ -3,9 +3,41 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
+	<style>
+
+	html,body{
+		height:200%;
+		margin:0
+	}
+	#chart{
+		width:100%;
+		height:100%
+
+	}
+	
+	</style>
 </head>
 <body>
-	
-	<script src=""></script>
+	<a href="javascript:void(0)" onclick="plotMap()" id="plotMap()">Map data</a>
+	<a href="javascript:void(0)" onclick="clearing()" id="plot">Clear all</a>
+
+	<script src="node_modules/heatmap.js/build/heatmap.js"></script>
+	<script src="script/script.js"></script>
+
+	<script>
+		function plotMap(){
+
+		}
+		function clearing(){
+			heatmap.setData({
+				max:1,
+				data:[{x:0,y:0,value:1}]
+			});
+		}
+		document.onreadystatechange = function(){
+			canvas = document.getElementsByTagName('canvas')[0];
+			canvas.style.marginTop='15px';
+		}
+	</script>
 </body>
 </html>
